@@ -1,47 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.min.css" />
     <title>Themebau</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header">
-        <div class="header__name">Themebau.</div>
-        <nav class="nav">
-            <a class="nav__link" href="#">home</a>
-            <a class="nav__link" href="#">projects</a>
-            <a class="nav__link" href="#">pages</a>
-            <a class="nav__link" href="#">contact</a>
-        </nav>
-        <div class="socials">
-            <a class="social" href="#">
-                <img class="social__icon" src="./image/icons/facebook-icon.svg" alt="">
-            </a>
+      <div class="header__name">Themebau.</div>
+      <nav class="nav">
+        <a class="nav__link" href="#">home</a>
+        <a class="nav__link" href="#">projects</a>
+        <a class="nav__link" href="#">pages</a>
+        <a class="nav__link" href="#">contact</a>
+      </nav>
+      <div class="socials">
+        <a class="social" href="#">
+          <img
+            class="social__icon"
+            src="./image/icons/facebook-icon.svg"
+            alt=""
+          />
+        </a>
 
-            <a class="social" href="#">
-                <img class="social__icon" src="./image/icons/twitter-icon.svg" alt="">
-            </a>
+        <a class="social" href="#">
+          <img
+            class="social__icon"
+            src="./image/icons/twitter-icon.svg"
+            alt=""
+          />
+        </a>
 
-            <a class="social" href="#">
-                <img class="social__icon" src="./image/icons/instagram-icon.svg" alt="">
-            </a>
-        </div>
-
+        <a class="social" href="#">
+          <img
+            class="social__icon"
+            src="./image/icons/instagram-icon.svg"
+            alt=""
+          />
+        </a>
+      </div>
     </header>
-    
+
     <main class="mainscreen">
-        <div class="mainscreen__context">
-            <img class="mainscreen__img" src="./image/mainscreen.jpg" alt="">
-            <h1 class="mainscreen__title">Colibri Creative
-                Project</h1>
-            <div class="mainscreen__slider">
+      <div class="slider">
+        <img
+          class="slider__arrow"
+          src="./image/icons/main-arrow-left.svg"
+          alt=""
+        />
+        <div class="slider__track">
+          <div class="slide">
+            <img class="slide__img" src="./image/mainscreen.jpg" alt="" />
+            <div class="slide__content">
+              <span class="slide__line"></span>
+              <h1 class="slide__title">Colibri Creative Project</h1>
+              <div class="slide__page">
                 <button class="">01</button>
                 <button class="">03</button>
+              </div>
+              <button class="slide__btn">view</button>
             </div>
-            <button class="mainscreen__btn">view</button>
+          </div>
         </div>
+
+        <img
+          class="slider__arrow"
+          src="./image/icons/main-arrow-right.svg"
+          alt=""
+        />
+      </div>
     </main>
-</body>
+  </body>
 </html>

@@ -1,0 +1,51 @@
+.mainscreen {
+    background-color: #0E0E0E;
+    display: flex;
+    width: 100%;
+}
+
+.slider {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    gap: 33px;
+}
+
+.slider__arrow {
+    width: 32px;
+    height: 32px;
+}
+
+.slide {
+    position: relative;
+}
+
+.slide__img {
+    width: 1170px;
+    height: 580px;
+    object-fit: cover;
+    object-position: center;  
+    position: relative;
+}
+
+.slide__content {
+    position: absolute;
+    display: block;
+    top: 175px;
+    left: 200px;
+}
+
+.slide__line {
+    background-color: #FFFFFF;
+    width: 70px;
+    height: 2px;
+}
+
+.slide__title {
+    color: #FFFFFF;
+    font-size: 70px;
+    font-weight: 500;
+    line-height: 80px;
+    margin-top: 36px;
+}
+
