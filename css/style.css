@@ -28,7 +28,7 @@ img {
   background-color: #0E0E0E;
   height: 90px;
   width: 100%;
-  padding: 26px 90px 34px;
+  padding: 26px 98px 34px 98px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -82,6 +82,7 @@ img {
 .slider__arrow {
   width: 32px;
   height: 32px;
+  margin-top: 235px;
 }
 
 .slide {
@@ -106,6 +107,7 @@ img {
 }
 
 .slide__line {
+  display: block;
   background-color: #FFFFFF;
   width: 70px;
   height: 2px;
@@ -113,8 +115,42 @@ img {
 
 .slide__title {
   color: #FFFFFF;
+  width: 516px;
   font-size: 70px;
   font-weight: 500;
   line-height: 80px;
   margin-top: 36px;
+}
+
+.slide__page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 88px;
+  width: 100%;
+  margin-top: 147px;
+}
+
+.page__one {
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.page__line {
+  display: block;
+  background-color: #FFFFFF;
+  width: 20px;
+  height: 1px;
+}
+
+.slide__btn {
+  width: 90px;
+  height: 90px;
+  color: rgb(14, 14, 14);
+  background-color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 50%;
+  border: 1px;
 }/*# sourceMappingURL=style.css.map */
