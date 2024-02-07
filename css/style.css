@@ -88,6 +88,7 @@ img {
 
 .slide {
   position: relative;
+  top: 104px;
 }
 
 .slide__img {
