@@ -1,0 +1,32 @@
+.info {
+    width: 100%
+}
+
+.info__desc {
+    display: block;
+    text-align: center;
+    margin: 123px auto;
+}
+
+.info__head {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 615px;
+    width: 100%;
+}
+
+.info__title {
+    color: rgb(14, 14, 14);
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 22px;
+}
+
+.info__subtitle {
+    color: rgb(14, 14, 14);
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 44px;
+    margin-bottom: 93px;
+}

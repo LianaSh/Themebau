@@ -26,7 +26,6 @@ img {
 
 .header {
   background-color: #0E0E0E;
-  height: 90px;
   width: 100%;
   padding: 26px 98px 34px 98px;
   display: flex;
@@ -158,4 +157,37 @@ img {
   background-color: #FFFFFF;
   width: 20px;
   height: 1px;
+}
+
+.info {
+  width: 100%;
+}
+
+.info__desc {
+  display: block;
+  text-align: center;
+  margin: 123px auto;
+}
+
+.info__head {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 615px;
+  width: 100%;
+}
+
+.info__title {
+  color: rgb(14, 14, 14);
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 22px;
+}
+
+.info__subtitle {
+  color: rgb(14, 14, 14);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 44px;
+  margin-bottom: 93px;
 }/*# sourceMappingURL=style.css.map */
