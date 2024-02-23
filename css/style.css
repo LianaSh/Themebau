@@ -165,8 +165,11 @@ img {
 
 .info__desc {
   display: block;
+  max-width: 963px;
+  width: 100%;
   text-align: center;
   margin: 123px auto;
+  padding-top: 125px;
 }
 
 .info__head {
@@ -190,4 +193,41 @@ img {
   font-weight: 500;
   line-height: 44px;
   margin-bottom: 93px;
+}
+
+.info__content {
+  display: flex;
+  justify-content: space-between;
+  gap: 109px;
+  margin-top: 93px;
+}
+
+.info__col {
+  display: block;
+  text-align: left;
+}
+
+.info__line {
+  display: block;
+  background-color: rgb(14, 14, 14);
+  width: 400px;
+  height: 1.2px;
+  margin-bottom: 34px;
+}
+
+.info__text {
+  color: rgb(14, 14, 14);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 51px;
+}
+
+.info__btn {
+  background-color: rgb(14, 14, 14);
+  width: 170px;
+  height: 54px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 500;
 }/*# sourceMappingURL=style.css.map */
