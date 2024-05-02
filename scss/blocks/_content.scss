@@ -1,0 +1,34 @@
+.content {
+    width: 100%;
+}
+
+.content__name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content__head {
+    color: rgb(14, 14, 14);
+    font-size: 100px;
+    font-weight: 500;
+    line-height: 116px;
+}
+
+.content__line {
+    display: flex;
+    background-color: rgb(14, 14, 14);
+    height: 1.2px;
+    width: 70px;
+}
+
+.content__btn {
+    display: flex;
+    background-color: rgb(14, 14, 14);
+    width: 170px;
+    height: 54px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+}

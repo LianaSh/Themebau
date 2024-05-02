@@ -1,12 +1,13 @@
 .product {
     width: 100%;
-    margin: 160px 30px 140px 30px;
+    padding: 160px 15px 140px 15px;
+    margin: 0 auto;
 }
 
 .product__list {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
+    gap: 20px;
 }
 
 .product__card {
